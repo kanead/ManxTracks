@@ -1,0 +1,8 @@
+3_state_HMM
+This is a 3 state model without any covariates and no subsets of data interpolated to 5 mins
+
+3StateHMMSubset-Chloro
+This is a 3 state model without any covariates but with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset+Chloro)
+
+3StateHMMSubset+Chloro
+This is a 3 state model with monthly chlorophyll covariate and with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset-Chloro)
