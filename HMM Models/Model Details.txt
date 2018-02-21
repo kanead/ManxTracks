@@ -8,7 +8,14 @@ This is a 3 state model without any covariates but with the ID levels that have 
 This is a 3 state model with monthly chlorophyll covariate and with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset-Chloro)
 
 3StateHMMSubset-ChloroBuffer
-This is a 3 state model without any covariates but with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset+Chloro). Points within a 5km radius of High Island have been removed.
+This is a 3 state model without any covariates but with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset+ChloroBuffer). Points within a 5km radius of High Island have been removed.
 
 3StateHMMSubset+ChloroBuffer
-This is a 3 state model with monthly chlorophyll covariate and with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset-Chloro). Points within a 5km radius of High Island have been removed.
+This is a 3 state model with monthly chlorophyll covariate and with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset-ChloroBuffer). Points within a 5km radius of High Island have been removed.
+
+3StateHMMSubset-ChloroBuffer-ExtremeChloro
+This is a 3 state model without monthly chlorophyll covariate and with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset+ChloroBuffer-ExtremeChloro). Points within a 5km radius of High Island have been removed. Rows with extreme chlorophyll values have been removed > 10
+
+3StateHMMSubset+ChloroBuffer-ExtremeChloro
+This is a 3 state model with monthly chlorophyll covariate and with the ID levels that have NAs for chlorophyll dropped and interpolated to 5 mins (should be compared to 3StateHMMSubset-ChloroBuffer-ExtremeChloro). Points within a 5km radius of High Island have been removed. Rows with extreme chlorophyll values have been removed > 10
+
